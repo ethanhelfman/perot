@@ -1,5 +1,6 @@
-# Solo 
+## Basic issue form for broken stuff in the perot museum
 
-[Solo](http://chibicode.github.io/solo) is a Jekyll theme that supports **single-page websites** only, but supports them well. Yes, it's responsive.
-
-### [Demo & Documentation &rarr;](http://chibicode.github.io/solo)
+* This is hosted on (github.com)[github.com]
+* This website uses (jekyll)[jekyllrb.com], which is licensed under (MIT)[https://opensource.org/licenses/MIT]
+* The theme for this website is (Solo)[https://chibicode.github.io/solo/], also licensed under (MIT)[https://opensource.org/licenses/MIT]
+* The form for this website is provided by (formspree)[formspree.io], which is an open source application, and can handle 1000 subscriptions a month without payment.
