@@ -6,13 +6,13 @@ layout: default
 
 <form action="https://formspree.io/ethanhelfman@outlook.com" method="POST">
   Floor: 
-  <input type="text" name="floor">
+  &nbsp;&nbsp;<input type="text" name="floor">
   <br>
   Machine: 
   <input type="text" name="machine">
   <br>
   Issue: 
-  <input type="text" name="issue">
+  &nbsp;&nbsp;<input type="text" name="issue">
   <br>
   <input type="submit" value="Submit">
 </form>
