@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Solo](http://chibicode.github.io/solo) is a Jekyll theme that supports **single-page websites** only, but supports them well. Yes, it's responsive.
+Perot Museum issue tracker - only submit issues if a machine is not working
 
 <form action="https://formspree.io/ethanhelfman@outlook.com" method="POST">
   Floor: 
