@@ -14,5 +14,6 @@ Only submit issues if a machine is not working
   Issue:
   &nbsp;&nbsp;<input type="text" name="issue">
   <br>
+  <br>
   <input type="submit" value="Submit">
 </form>

@@ -1,7 +1,7 @@
 # Site settings
-title: Ethan Helfman
+title: Perot Museum Issue Tracker
 tag_text: Perot Museum Issue Tracker
-description: Ethan Helfman
+description: Perot Museum Issue Tracker
 # Build settings
 markdown: kramdown
 exclude: ["README.md"]
