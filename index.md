@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<title>Perot Museum Issue Tracker</title>
 Only submit issues if a machine is not working
 
 <form action="https://formspree.io/ethanhelfman@outlook.com" method="POST">
