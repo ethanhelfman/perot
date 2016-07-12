@@ -1,9 +1,6 @@
-# Site settings
 title: Perot Issue Tracker
 tag_text: Perot
 description: Perot Issue Tracker
-
-# Build settings
 markdown: kramdown
 exclude: ["README.md"]
 sass:
