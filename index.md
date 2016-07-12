@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<p>Perot Museum issue tracker - only submit issues if a machine is not working</p>
+Perot Museum issue tracker - only submit issues if a machine is not working
 
 <form action="https://formspree.io/ethanhelfman@outlook.com" method="POST">
   Floor: 
