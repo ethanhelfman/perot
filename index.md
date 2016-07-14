@@ -4,7 +4,7 @@ layout: default
 <title>Perot Museum Issue Tracker</title>
 Only submit issues if a machine is not working
 
-<form action="https://formspree.io/ethanhelfman@outlook.com" method="POST">
+<form action="https://formspree.io/perot.exhibits@gmail.com" method="POST">
   Floor:
   &nbsp;&nbsp;<input type="text" name="floor">
   <br>
