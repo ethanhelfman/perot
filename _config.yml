@@ -1,9 +1,0 @@
-# Site settings
-title: Perot Museum Issue Tracker
-tag_text: Perot Museum Issue Tracker
-description: Perot Museum Issue Tracker
-# Build settings
-markdown: kramdown
-exclude: ["README.md"]
-sass:
-  style: compressed
