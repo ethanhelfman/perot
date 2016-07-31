@@ -14,10 +14,12 @@ Only submit issues if a bulb is not working
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="area">
   <br>
   Bulb Type:
-  <input type="text" name="bulb" placeholder="LED\House\Theater">
+  <input type="radio" name="bulb" value="LED">
+  <input type="radio" name="bulb" value="House">
+  <input type="radio" name="bulb" value="Theater">
   <br>
   Location:
-  &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="location">
+  &nbsp;<input type="text" name="location">
   <br>
   <br>
   <input type="submit" value="Submit">
