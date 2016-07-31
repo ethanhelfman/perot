@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<title>Perot Museum Issue Tracker</title>
+<title>Perot Museum Lightbulb Tracker</title>
 Only submit issues if a machine is not working
 
 <form action="https://formspree.io/perot.exhibits@gmail.com" method="POST">
@@ -10,10 +10,10 @@ Only submit issues if a machine is not working
   Floor:
   &nbsp;&nbsp;<input type="text" name="floor">
   <br>
-  Machine:
+  Area:
   <input type="text" name="machine">
   <br>
-  Issue:
+  Bulb Type:
   &nbsp;&nbsp;<input type="text" name="issue">
   <br>
   <br>
