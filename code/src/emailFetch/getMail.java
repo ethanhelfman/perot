@@ -61,6 +61,7 @@ public class getMail {
 		String ma = "";
 		String is = "";
 		String dt = "";
+		String loc = "";
 		List<File> filesInFolder = Files.walk(Paths.get(""))
                 .filter(Files::isRegularFile)
                 .filter(f -> f.toFile().getName().contains(".txt"))
@@ -80,14 +81,17 @@ public class getMail {
 					fl = kb.nextLine();
 				if(temp.contains("bulb"))
 					ma = kb.nextLine();
+				if(temp.contains("location"))
+					loc = kb.nextLine();
 				if(temp.contains("Mon") || temp.contains("Tue") || temp.contains("Wed") || temp.contains("Thu") || temp.contains("Fri") || temp.contains("Sat") || temp.contains("Sun"))
 					dt = temp.substring(10, 22).trim();
-				if(!ma.equals("") && !is.equals("") && !fl.equals("")) {
-					csv.add(new csv(fl, ma, is, dt));
+				if(!ma.equals("") && !is.equals("") && !fl.equals("") && !loc.equals("")) {
+					csv.add(new csv(fl, ma, is, dt, loc));
 					ma = "";
 					fl = "";
 					is = "";
 					dt = "";
+					loc = "";
 				}
 			}
 		}
