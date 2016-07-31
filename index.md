@@ -16,6 +16,9 @@ Only submit issues if a bulb is not working
   Bulb Type:
   <input type="text" name="bulb" placeholder="LED\House\Theater">
   <br>
+  Location:
+  &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="location">
+  <br>
   <br>
   <input type="submit" value="Submit">
 </form>
