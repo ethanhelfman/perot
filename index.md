@@ -8,13 +8,16 @@ Only submit issues if a machine is not working
   <input type="hidden" name="_next" value="//ethanhelfman.github.io/perot/"/>
   <input type="hidden" name="_format" value="plain"/>
   Floor:
-  &nbsp;&nbsp;<input type="text" name="floor">
+  &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="floor">
   <br>
   Area:
-  <input type="text" name="machine">
+  &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="area">
   <br>
+  <p>
+    LED, House, or Theater
+  </p>
   Bulb Type:
-  &nbsp;&nbsp;<input type="text" name="issue">
+  <input type="text" name="bulb">
   <br>
   <br>
   <input type="submit" value="Submit">
