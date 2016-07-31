@@ -14,9 +14,12 @@ Only submit issues if a bulb is not working
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="area">
   <br>
   Bulb Type:
-  <input type="radio" name="bulb" value="LED">
-  <input type="radio" name="bulb" value="House">
-  <input type="radio" name="bulb" value="Theater">
+  <label for="LED">LED</label>
+  <input type="radio" name="bulb" value="LED" id="LED">
+  <label for="House">House</label>
+  <input type="radio" name="bulb" value="House" id="House">
+  <label for="Theater">Theater</label>
+  <input type="radio" name="bulb" value="Theater" id="Theater">
   <br>
   Location:
   &nbsp;<input type="text" name="location">
