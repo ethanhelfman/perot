@@ -23,7 +23,7 @@ public class getMail {
 	public static void main(String[] args) throws IOException, Exception {
 		long start = System.currentTimeMillis();
 		System.out.println("Getting emails...");
-		get("perot email", "passowrd"); //CHANGE AS NEEDED
+		get("perot.exhibits@gmail.com", "Changeme.1"); //CHANGE AS NEEDED
 		System.out.println("Processing emails...");
 		write();
 		long end = System.currentTimeMillis();
@@ -74,14 +74,14 @@ public class getMail {
 			kb = new Scanner(f);
 			while(kb.hasNextLine()) {
 				String temp = kb.nextLine();
-				if(temp.contains("issue")) 
+				if(temp.contains("area")) 
 					is = kb.nextLine();
 				if(temp.contains("floor"))
 					fl = kb.nextLine();
-				if(temp.contains("machine"))
+				if(temp.contains("bulb"))
 					ma = kb.nextLine();
 				if(temp.contains("Mon") || temp.contains("Tue") || temp.contains("Wed") || temp.contains("Thu") || temp.contains("Fri") || temp.contains("Sat") || temp.contains("Sun"))
-					dt = temp.substring(10, 21).trim();
+					dt = temp.substring(10, 22).trim();
 				if(!ma.equals("") && !is.equals("") && !fl.equals("")) {
 					csv.add(new csv(fl, ma, is, dt));
 					ma = "";

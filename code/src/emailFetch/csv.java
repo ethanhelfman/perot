@@ -4,24 +4,24 @@ public class csv {
 	
 	String date;
 	String floor;
-	String machine;
+	String area;
 	String issue;
 
 	public csv() {
 		floor = "floor";
-		machine = "machine";
+		area = "area";
 		issue = "issue";
 		date = "date";
 	}
 	
 	public csv(String fl, String ma, String is, String dt) {
 		floor = fl;
-		machine = ma;
+		area = ma;
 		issue = is;
 		date = dt;
 	}
 	
 	public String toString() {
-		return date + "," + floor + "," + machine + "," + issue;
+		return date + "," + floor + "," + area + "," + issue;
 	}
 }
