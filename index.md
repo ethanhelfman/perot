@@ -2,7 +2,7 @@
 layout: default
 ---
 <title>Perot Museum Lightbulb Tracker</title>
-Only submit issues if a machine is not working
+Only submit issues if a bulb is not working
 
 <form action="https://formspree.io/perot.exhibits@gmail.com" method="POST">
   <input type="hidden" name="_next" value="//ethanhelfman.github.io/perot/"/>
