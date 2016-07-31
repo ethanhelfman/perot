@@ -14,7 +14,7 @@ Only submit issues if a machine is not working
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="area">
   <br>
   Bulb Type:
-  <input type="text" name="bulb" placeholder="LED, House, or Theater">
+  <input type="text" name="bulb" placeholder="LED\House\Theater">
   <br>
   <br>
   <input type="submit" value="Submit">
